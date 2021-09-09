@@ -1,0 +1,67 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #dfdfdf;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: #dfdfdf;
+    }
+}
+
+h1 {
+    color: #020200;
+    font-size: 250%;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 50px;
+
+}
+
+h2 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 200%;
+    text-align: center;
+}
+
+$colorBotonClickeable: #00203C;
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding: 5px;
+    }
+
+    div div {
+        text-align: center;
+    }
+
+    div div img {
+        width: 100%;
+    }
+}
+
+body{
+    background-color: #dfdfdf;
+}
+
+
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
